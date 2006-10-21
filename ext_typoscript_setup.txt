@@ -1,0 +1,38 @@
+plugin.tx_skcodebox_pi1 {
+	titleBoxBgColor = #405753
+	titleBoxColor = #ffffff
+	codeBoxBgColor = #efefef
+	width = 500
+	height = 240
+	
+	highLightStyles {
+		# Space before any content on a line
+		prespace = |
+		#  Space after the object string on a line
+		objstr_postspace = |	
+		# Space after the operator on a line
+		operator_postspace = |
+		# The operator char
+		operator = <span style="color: black; font-weight: bold;">|</span>
+		# The value of a line
+		value = <span style="color: #cc0000;">|</span>
+		# The object string of a line
+		objstr = <span style="color: #0000cc;">|</span>
+		#  The value when the copy syntax (<) is used; that means the object reference
+		value_copy = <span style="color: #006600;">|</span>
+		#  The value when an object is unset. Should not exist.
+		value_unset = <span style="background-color: #66cc66;">|</span>
+		#  The default style if none other is applied.
+		default = <span style="background-color: #66cc66;">|</span>
+		#  Comment lines
+		comment = <span style="color: #666666; font-style: italic;">|</span>
+		#  Conditions
+		condition = <span style="background-color: maroon; color: #ffffff; font-weight: bold;">|</span>
+		#  Error messages
+		error = <span style="background-color: yellow; border: 1px red dashed; font-weight: bold;">|</span>
+		#  Line numbers
+		linenum = <span style="background-color: #eeeeee;">|</span>
+	}
+}
+
+
